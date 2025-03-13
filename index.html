@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.min.js"></script>
+    <title>Stickman Evolution</title>
+    <style>
+      .controls {
+        margin: 10px 0;
+      }
+      button {
+        padding: 8px 16px;
+        margin-right: 10px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="controls">
+      <button id="startBtn">Start Evolution</button>
+      <button id="stopBtn" disabled>Stop Evolution</button>
+    </div>
+    <canvas
+      id="canvas"
+      width="500"
+      height="400"
+      style="border: 1px solid black"></canvas>
+    <script src="DNA.js"></script>
+    <script src="Population.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
